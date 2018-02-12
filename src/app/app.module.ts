@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { TakePhotoComponent } from './take-photo/take-photo.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TakePhotoComponent
   ],
   imports: [
     BrowserModule
